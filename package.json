@@ -1,0 +1,31 @@
+{
+  "name": "@dikhyantkrishnadalai/resume",
+  "version": "1.0.1",
+  "description": "A command-line interface to display Dhyant Krishna Dalal's professional resume fetched from Supabase.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "dikhyantkrishnadalai": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume",
+    "cli",
+    "personal-branding",
+    "supabase",
+    "nodejs",
+    "dikhyantkrishnadalai"
+  ],
+  "author": "Dhyant Krishna Dalal",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.4",
+    "chalk": "^5.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
